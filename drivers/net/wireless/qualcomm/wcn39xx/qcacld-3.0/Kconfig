@@ -46,6 +46,10 @@ config 64BIT_PADDR
 	depends on HELIUMPLUS
 	default n
 
+config CONFIG_FEATURE_MONITOR_MODE_SUPPORT
+	bool "Enable monitor mode"
+	default y
+
 config QCOM_TDLS
 	bool "Enable TDLS feature"
 	default n
